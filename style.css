@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+#connection{
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+}
+.connectionCardContainer{
+	width: 500px;
+	box-shadow: 0 0 128px 0 rgb(0 0 0 / 10%), 0 32px 64px -48px rgb(0 0 0 / 50%);
+	border-radius: 5px;
+	font-weight: bold;
+	color: #000;
+	font-size: 2em;
+}
+.enterConnection{
+	display: flex;
+	justify-content: center;
+}
+.enterConnection button{
+	cursor: pointer;
+	outline: none;
+	background: #333333;
+	color: #fff;
+	border: 2px solid transparent;
+	border-radius: 5px;
+	width: 350px;
+	height: 50px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.title{
+	padding-left: 4%;
+}
+hr{
+	border: 2px thin;
+	width: 400px;
+	padding-right: 55px;
+}
+.id, .mailAddress{
+	padding-left: 4%;
+	font-size: 18px;
+}
+.mailAddress{
+	padding-top: 15px;
+}
+input[type="text"]{
+	outline: none;
+	border: 1px solid #cccccc;
+	height: 50px;
+	width: 400px;
+	border-radius: 5px;
+}
+.enterConnection{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+input[type="text"]::placeholder{
+	color: #757575;
+	font-size: 18px;
+}
+#app{
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+}
+.topMenu{
+	width: 500px;
+	box-shadow: 0 0 128px 0 rgb(0 0 0 / 10%), 0 32px 64px -48px rgb(0 0 0 / 50%);
+	font-weight: bold;
+	color: #000;
+	font-size: 2em;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height: 50px;
+	border: 2px solid transparent;
+	padding-bottom: 25px;
+}
+.chatContainer{
+	width: 500px;
+	box-shadow: 0 0 128px 0 rgb(0 0 0 / 10%), 0 32px 64px -48px rgb(0 0 0 / 50%);
+	font-weight: bold;
+	color: #000;
+	background: #cccccc;
+	font-size: 2em;
+}
+.msgContainer{
+	padding: 1%;
+}
+.hesMsg{
+	padding: 1px;
+	width: 49%;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	font-size: 17px;
+	background: red;
+	background: #333;
+	color: #fff;
+}
+.yourMsgContainer{
+	padding-left: 49%;
+	width: 500px;
+}
+.yourMsg{
+	padding: 1px;
+	width: 49%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background: #fff;
+	font-size: 17px;
+}
+.sendImg{
+	width: 50px;
+	border: 2px solid #333333;
+	border-radius: 5px;
+	cursor: pointer;
+	background: #fff;
+}
+.sendContainer{
+	display: inline-flex;
+	justify-content: center;
+	background: transparent;
+}
+.sendContainerCenter{
+	display: flex;
+	justify-content: center;
+	background: transparent;
+}
